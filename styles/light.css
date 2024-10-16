@@ -5,8 +5,34 @@
 */
 
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --accent-color: rgba(255, 141, 203, 1);
+  --color-of-title:  rgba(255, 194, 230, 1);
+  --color-of-text:  rgba(53, 52, 48, 1);
+  --color-of-text-title: rgba(53, 52, 48, 1);
+  --background-of-page: url('../images/cover-image-light.png');
+  --color-of-button: rgba(53, 52, 48, 1);
+}
+
+
+:root.theme-light {
+  --accent-color: rgba(255, 141, 203, 1);
+  --color-of-title:  rgba(255, 194, 230, 1);
+  --color-of-text:  rgba(53, 52, 48, 1);
+  --color-of-text-title: rgba(53, 52, 48, 1);
+  --background-of-page: url('../images/cover-image-light.png');
+  --color-of-button: rgba(53, 52, 48, 1);
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: rgba(255, 141, 203, 1);
+    --color-of-title:  rgba(255, 194, 230, 1);
+    --color-of-text:  rgba(53, 52, 48, 1);
+    --color-of-text-title: rgba(53, 52, 48, 1);
+    --background-of-page: url('../images/cover-image-light.png');
+  }
+
+
+ 
 }
