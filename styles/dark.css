@@ -4,7 +4,8 @@
   переключая тему
 */
 
-.root.theme_dark {
+:root.theme-dark {
+  --accent-color-of-picture: rgba(255, 0, 112, 1);
   --accent-color: rgba(255, 0, 112, 1);
   --color-of-title: rgba(219, 0, 255, 1);
   --color-of-text: rgba(241, 178, 206, 1);
@@ -14,6 +15,7 @@
 }
 
 .page.theme_dark {
+  --accent-color-of-picture: rgba(255, 0, 112, 1);;
   --accent-color: rgba(255, 0, 112, 1);
   --color-of-title: rgba(219, 0, 255, 1);
   --color-of-text: rgba(241, 178, 206, 1);
