@@ -6,19 +6,17 @@
 
 .root.theme_dark {
   --accent-color: rgba(255, 0, 112, 1);
-  --color-of-title:  rgba(219, 0, 255, 1);
-  --color-of-text:  rgba(241, 178, 206, 1);
+  --color-of-title: rgba(219, 0, 255, 1);
+  --color-of-text: rgba(241, 178, 206, 1);
   --color-of-text-title: rgba(0, 0, 40, 1);
-  --background-of-page: url('./images/cover-image-dark.png');
-  --color-of-button:  rgba(255, 0, 112, 1);
+  --background-of-page: url("./images/cover-image-dark.png");
+  --color-of-button: rgba(255, 0, 112, 1);
 }
-
 
 .page.theme_dark {
   --accent-color: rgba(255, 0, 112, 1);
-  --color-of-title:  rgba(219, 0, 255, 1);
-  --color-of-text:  rgba(241, 178, 206, 1);
+  --color-of-title: rgba(219, 0, 255, 1);
+  --color-of-text: rgba(241, 178, 206, 1);
   --color-of-text-title: rgba(0, 0, 40, 1);
-  --color-of-button:  rgba(255, 0, 112, 1);
+  --color-of-button: rgba(255, 0, 112, 1);
 }
-
