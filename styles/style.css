@@ -109,8 +109,8 @@
   color: var(--color-of-title, rgba(219, 0, 255, 1));
   text-shadow: 4px 4px var(--accent-color, rgba(255, 0, 112, 1));
   line-height: 95.7px;
-  margin-block-end: 15%;
-  margin-block-start: 19%;
+  margin-block-end: 15.8%;
+  margin-block-start: 18%;
 }
 
 .main_text {
@@ -123,11 +123,11 @@
 }
 
 .main_content {
-  padding: 11% 10px 0px;
+  padding: 10.97% 10px 0px;
 }
 
 .section_content:not(:last-child) {
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 
 .section_content_title {
@@ -157,7 +157,7 @@
   font-weight: 400;
   line-height: 23.4px;
   text-align: left;
-  margin: 9px 4px 20px 0px;
+  margin: 10px 4px 20px 0px;
 }
 
 .section_content_header_title {
@@ -280,6 +280,7 @@
     grid-template-rows: repeat(4, max-content);
     column-gap: 20px;
   }
+
 
   .section_content_title {
     grid-row-start: 1;
