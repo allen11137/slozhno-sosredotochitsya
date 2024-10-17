@@ -27,10 +27,9 @@
     --background-of-page: url("../images/cover-image-light.png");
     --background-color: #fff1f7;
   }
-}
 
-.page.theme_light {
   .header_position_element {
     display: none;
   }
 }
+
