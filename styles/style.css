@@ -280,6 +280,10 @@
     margin-bottom: 70px;
   }
 
+  .section_content:not(:last-child) {
+    margin-bottom: 60px;
+  }
+
   .section_content_title {
     grid-row-start: 1;
     grid-row-end: 5;
@@ -304,7 +308,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(11, max-content);
-    gap: 20px;
+    column-gap: 20px;
   }
 
   .section_content_title#content {
