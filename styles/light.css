@@ -6,6 +6,7 @@
 
 .page.theme_light {
   --accent-color-of-picture: rgba(53, 52, 48, 1);
+  --text-shadow: rgb(255,0,112);
   --accent-color: rgba(255, 141, 203, 1);
   --color-of-title: rgba(255, 194, 230, 1);
   --color-marker: rgba(50, 49, 45, 0.4);
@@ -20,6 +21,7 @@
 @media (prefers-color-scheme: light) {
   .page.theme_light {
     --accent-color-of-picture: rgba(53, 52, 48, 1);
+    --text-shadow: rgb(255,0,112);
     --accent-color: rgba(255, 141, 203, 1);
     --color-of-title: rgba(255, 194, 230, 1);
     --color-of-text: rgba(53, 52, 48, 1);

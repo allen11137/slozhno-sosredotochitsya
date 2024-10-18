@@ -13,5 +13,6 @@
   --color-of-button: rgba(255, 0, 112, 1);
   --background-of-page: url("../images/cover-image-dark.png");
   --header_element: visibility;
+  --text-shadow: rgba(219, 0, 255, 1);
 }
 
