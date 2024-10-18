@@ -7,10 +7,11 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding: 0 10px 0px 10px;
+  /*padding: 0 10px 0px 10px; */
 }
 
 .header {
+  padding: 0 10px 0px 10px;
   position: relative;
   font-family: "IBM Plex mono", sans-serif;
   min-height: 668px;
@@ -94,7 +95,7 @@
 
 .top {
   top: 10px;
-  right: 0.5px;
+  right: 10px;
   border-left: none;
   border-bottom: none;
 }
@@ -103,9 +104,11 @@
   border-top: none;
   border-right: none;
   bottom: 10px;
+  left: 10px;
 }
 
 .main_content {
+  padding: 0 10px 0px 10px;
   display: grid;
   gap: 50px;
   grid-template-columns: minmax(min(320px, 100%), 1fr);
@@ -242,17 +245,19 @@
 
 @media (width>767px) {
   .header {
-    padding: 20px 10px 60px 20px;
+    padding: 20px 20px 0px 20px;
     min-height: 1024px;
     margin-block-end: 60px;
   }
 
   .header_position_element {
+    gap: 6px;
     top: 21px;
+    right: 4%;
   }
 
   .top {
-    right: 10px;
+    right: 20px;
     top: 20px;
   }
 
@@ -263,32 +268,31 @@
   }
 
   .header__theme-menu-list {
-    margin-block-start: 23.8%;
-    gap: 0.62em;
+    margin-block-start: 23.4%;
+    gap: 0.55em;
   }
 
   .main_header {
     font-size: clamp(7.5rem, 0.3471rem + 14.902vw, 9.875rem);
     line-height: 129.53px;
-    margin-inline-start: -30px;
+    margin-inline-start: -20px;
     align-self: flex-start;
-    margin-block-start: 22%;
-    margin-block-end: 1%;
+    margin-block-end: 2%;
   }
 
   .main_text {
     max-width: 364px;
-    margin-block-start: 19.5%;
+    margin-block-start: 17.6%;
     margin-inline-start: 49.3%;
   }
 
   .bottom {
-    left: 10px;
+    left: 20px;
     bottom: 20px;
   }
 
   .main_content {
-    padding: 0px 10px 0px 10px;
+    padding: 0px 20px 0px 20px;
     gap: 80px;
   }
 
