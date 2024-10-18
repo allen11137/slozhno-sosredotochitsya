@@ -86,17 +86,6 @@
   border-color: var(--color-marker, rgba(255, 0, 112, 0.4));
 }
 
-
-
-
-
-
-.header__theme-menu-button:hover {
-  border-color: var(--border-menu, #32312D66);
-}
-
-
-
 .square_image {
   position: absolute;
   width: 25px;
