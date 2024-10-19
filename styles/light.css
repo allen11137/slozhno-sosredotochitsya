@@ -6,32 +6,32 @@
 
 .page.theme_light {
   --accent-color-of-picture: rgba(53, 52, 48, 1);
-  --text-shadow: rgb(255,0,112);
-  --accent-color: rgba(255, 141, 203, 1);
+  --text-shadow: rgb(255, 0, 112);
+  --accent-color: rgba(53, 52, 48, 1);
   --color-of-title: rgba(255, 194, 230, 1);
-  --color-marker: rgba(50, 49, 45, 0.4);
   --color-of-text: rgba(53, 52, 48, 1);
   --color-of-text-title: rgba(53, 52, 48, 1);
   --background-of-page: url("../images/cover-image-light.png");
   --color-of-button: rgba(53, 52, 48, 1);
   --background-color: #fff1f7;
   --header_element: hidden;
+  --background-text-color: rgba(255, 141, 203, 1);
+  --color-of-header: rgba(53, 52, 48, 1);
 }
 
 @media (prefers-color-scheme: light) {
   .page {
     --accent-color-of-picture: rgba(53, 52, 48, 1);
-    --text-shadow: rgb(255,0,112);
-    --accent-color: rgba(255, 141, 203, 1);
+    --text-shadow: rgb(255, 0, 112);
+    --accent-color: rgba(53, 52, 48, 1);
     --color-of-title: rgba(255, 194, 230, 1);
     --color-of-text: rgba(53, 52, 48, 1);
-    --color-marker: rgba(50, 49, 45, 0.4);
+    --color-of-button: rgba(53, 52, 48, 1);
     --color-of-text-title: rgba(53, 52, 48, 1);
     --background-of-page: url("../images/cover-image-light.png");
     --background-color: #fff1f7;
     --header_element: hidden;
+    --background-text-color: rgba(255, 141, 203, 1);
+    --color-of-header: rgba(53, 52, 48, 1);
   }
-
-
 }
-
