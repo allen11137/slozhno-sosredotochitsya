@@ -17,6 +17,7 @@
   --color-button: rgba(255, 0, 112, 1);
   --background-text-color: rgba(255, 0, 112, 1);
   --color-of-header: rgba(255, 0, 112, 1);
+  --color-of-main-header: rgba(0, 0, 40, 1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -32,5 +33,6 @@
     --text-shadow: rgba(219, 0, 255, 1);
     --background-text-color: rgba(255, 0, 112, 1);
     --color-of-header: rgba(255, 0, 112, 1);
+    --color-of-main-header: rgba(0, 0, 40, 1);
   }
 }

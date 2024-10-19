@@ -127,6 +127,7 @@
 .main_text {
   background-color: var(--background-text-color, rgba(255, 0, 112, 1));
   font-family: "IBM Plex mono", sans-serif;
+  color: var(--color-of-main-header, rgba(0, 0, 40, 1));
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
@@ -396,6 +397,7 @@
   }
 
   .header__theme-menu {
+    display: flex;
     justify-content: center;
   }
 
@@ -447,10 +449,5 @@
   .footer_title {
     font-size: clamp(7.5rem, 0.5625rem + 14.45vw, 9.8rem);
     margin-block-start: 20.3rem;
-  }
-
-  .first_section:first-child {
-    row-gap: 10px;
-    column-gap: 10px;
   }
 }
