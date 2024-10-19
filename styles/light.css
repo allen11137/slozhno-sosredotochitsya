@@ -19,7 +19,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .page.theme_light {
+  .page {
     --accent-color-of-picture: rgba(53, 52, 48, 1);
     --text-shadow: rgb(255,0,112);
     --accent-color: rgba(255, 141, 203, 1);
