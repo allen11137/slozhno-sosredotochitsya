@@ -7,6 +7,7 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  max-width: 1024px;
 }
 
 .header {
@@ -15,7 +16,9 @@
   font-family: "IBM Plex mono", sans-serif;
   min-height: 668px;
   height: 100vh;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   grid-template-rows: 1fr min-content 1fr;
   margin-block-end: 40px;
 }
@@ -396,9 +399,14 @@
     padding: 0px 13px;
   }
 
+  .header_position_element {
+    inset-inline-end: 30px;
+  }
+
   .header__theme-menu {
     display: flex;
     justify-content: center;
+    align-items: start;
   }
 
   .header__theme-menu-list {
@@ -432,6 +440,7 @@
 
   .section_what_exactly {
     display: grid;
+  
   }
 
   .what_exactly_list_item {
