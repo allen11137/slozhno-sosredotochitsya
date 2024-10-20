@@ -93,7 +93,7 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  border: 1px solid var(--background-text-color, rgba(255, 0, 112, 1));
+  border: 1px solid var(--accent-color, rgba(255, 0, 112, 1));
 }
 
 .top {
@@ -438,17 +438,13 @@
     gap: 20px;
   }
 
-  .section_what_exactly {
-    display: grid;
-  
-  }
-
   .what_exactly_list_item {
     max-width: min(315px, 100%);
   }
 
   .section_what_exactly_list {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .footer {
@@ -457,6 +453,7 @@
 
   .footer_title {
     font-size: clamp(7.5rem, 0.5625rem + 14.45vw, 9.8rem);
-    margin-block-start: 20.3rem;
+    margin: 0;
+    align-items: center;
   }
 }
